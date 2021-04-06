@@ -3,5 +3,5 @@ function calculatePower(array) {
         return i * 2;    
     }).reduce((i, j) => {
         return i += j;
-    }, 0)
+    }, 0);
 }
